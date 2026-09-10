@@ -31,25 +31,25 @@ Sistema web desenvolvido em Python e Django para controle e gestão de equipamen
 
 ## 📐 Arquitetura do Sistema (MVT)
 
-'
-       [ Requisição HTTP (Navegador) ]
+
+     [ Requisicao HTTP - Navegador ]
                      │
                      ▼
              ┌───────────────┐
-             │    urls.py    │ (Roteamento de URLs)
+             │    urls.py    │  <-- Roteamento de URLs
              └───────┬───────┘
                      │
                      ▼
              ┌───────────────┐
-             │   views.py    │ (Regra de Negócio & Lógica)
+             │   views.py    │  <-- Regra de Negocio & Logica
              └───────┬───────┘
             ┌────────┴────────┐
             ▼                 ▼
    ┌────────────────┐ ┌───────────────┐
-   │   models.py    │ │  templates/   │
-   │  (Equipamento) │ │ (lista.html,  │
-   └───────┬────────┘ │ cadastro.html,│
-           │          │ detalhes.html)│
+   │   models.py    │ │   templates   │
+   │  Equipamentos  │ │  lista.html   │
+   └───────┬────────┘ │ cadastro.html │
+           │          │ detalhes.html │
            ▼          └───────┬───────┘
    ┌────────────────┐         │
    │   db.sqlite3   │         │
@@ -57,26 +57,29 @@ Sistema web desenvolvido em Python e Django para controle e gestão de equipamen
             │                 │
             └────────┬────────┘
                      ▼
-       [ Resposta HTML Renderizada ]
+       [ Resposta HTML Renderizada ] 
+       
 
 ---
 
 ## 💻 Como Executar o Projeto Localmente
 
 1. **Clone o repositório:**
-   bash
-   git clone [https://github.com/jhonatabarbosa-dev/Sistema-de-Gest-o-de-Equipamentos.git](https://github.com/jhonatabarbosa-dev/Sistema-de-Gest-o-de-Equipamentos.git)
-   cd Sistema-de-Gest-o-de-Equipamentos
 
-Execute as migrações do banco de dados:
+bash
+git clone [https://github.com/jhonatabarbosa-dev/Sistema-de-Gest-o-de-Equipamentos.git](https://github.com/jhonatabarbosa-dev/Sistema-de-Gest-o-de-Equipamentos.git)
+
+cd Sistema-de-Gest-o-de-Equipamentos
+
+2. **Execute as migrações do banco de dados:**
 
 Bash
 python manage.py migrate
 
 
-Inicie o servidor de desenvolvimento:
+3. **Inicie o servidor de desenvolvimento:**
 
 Bash
 python manage.py runserver
 
-Acesse http://127.0.0.1:8000/ no navegador.
+4. **Acesse http://127.0.0.1:8000/ no navegador.**
