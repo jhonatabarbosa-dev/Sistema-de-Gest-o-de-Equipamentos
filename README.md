@@ -31,7 +31,7 @@ Sistema web desenvolvido em Python e Django para controle e gestão de equipamen
 
 ## 📐 Arquitetura do Sistema (MVT)
 
-```text
+'
        [ Requisição HTTP (Navegador) ]
                      │
                      ▼
@@ -61,18 +61,18 @@ Sistema web desenvolvido em Python e Django para controle e gestão de equipamen
 
 ---
 
-💻 Como Executar o Projeto Localmente:
+## 💻 Como Executar o Projeto Localmente
 
-Clone o repositório:
-
-Bash
-git clone [https://github.com/jhonatabarbosa-dev/Sistema-de-Gest-o-de-Equipamentos.git](https://github.com/jhonatabarbosa-dev/Sistema-de-Gest-o-de-Equipamentos.git)
-cd Sistema-de-Gest-o-de-Equipamentos
+1. **Clone o repositório:**
+   bash
+   git clone [https://github.com/jhonatabarbosa-dev/Sistema-de-Gest-o-de-Equipamentos.git](https://github.com/jhonatabarbosa-dev/Sistema-de-Gest-o-de-Equipamentos.git)
+   cd Sistema-de-Gest-o-de-Equipamentos
 
 Execute as migrações do banco de dados:
 
 Bash
 python manage.py migrate
+
 
 Inicie o servidor de desenvolvimento:
 
