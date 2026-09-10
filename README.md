@@ -6,13 +6,7 @@
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 
-Sistema web desenvolvido em Python e Django para controle, inventário e gestão de equipamentos e ativos de TI.
-
----
-
-## 👩‍💻 Desenvolvedor
-
-**Jhonata Barbosa** - [GitHub](https://github.com/jhonatabarbosa-dev)
+Sistema web desenvolvido em Python e Django para controle e gestão de equipamentos de empresas.
 
 ---
 
@@ -29,7 +23,7 @@ Sistema web desenvolvido em Python e Django para controle, inventário e gestão
 
 - **Linguagem:** Python 3
 - **Framework Web:** Django
-- **Banco de Dados:** SQLite (Desenvolvimento)
+- **Banco de Dados:** SQLite
 - **Frontend:** HTML5, Bootstrap 5, Django Template Language (DTL)
 - **Ambiente:** VS Code DevContainer / GitHub Codespaces
 
